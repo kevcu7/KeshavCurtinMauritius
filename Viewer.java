@@ -13,23 +13,23 @@ public class Viewer
                 switch(grid[i][j])
                 {
                     case Maze.EMPTY:
-                        System.out.print("  ");
+                        System.out.print(' ');
                         break;
                         
                     case Maze.WALL:
-                        System.out.print("##");
+                        System.out.print("++");
                         break;
                         
                     case Maze.START:
-                        System.out.print("^^");
+                        System.out.print("&&");
                         break;
                         
                     case Maze.END:
-                        System.out.print("$$");
+                        System.out.print("%%");
                         break;
                         
                     case Maze.VISITED:
-                        System.out.print("..");
+                        System.out.print("@@");
                         break;
                         
                     default:
